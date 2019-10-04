@@ -1,12 +1,12 @@
-<ion-app>
+<ion-app  >
     <ion-menu side="start" menuId="first" contentId="content1">
-      <ion-header>
-        <!-- <ion-title> -->
+      <ion-header class="background" >
+        <ion-title style="text-align: center" >
             <img class="ion-float-" width="150" height="60" src="/assets/icon/Spatlo_App_Logo.png" alt="" >
-          <!-- </ion-title> -->
+          </ion-title>
         </ion-header>
 
-        <ion-content >
+        <ion-content class="background">
           <ion-list *ngFor="let pages of navigate">
           <ion-menu-toggle auto-hide="true">
             <ion-item [routerLink]="pages.url" routerDirection="forward">

@@ -1,0 +1,17 @@
+ion-content.background{
+    --background: url('/assets/icon/App_Bg.png') no-repeat 0 0/180% 180%;
+    --background-size: cover;
+    --background-color: green ;
+}
+
+
+ion-header.background{
+    --background: url('/assets/icon/App_Bg.png') no-repeat 0 0/100% 100%;
+    --background-size: cover;
+}
+
+
+// ion-list {/* optional, but it needs when you use gradient as a background color.*/
+//     background: transparent;
+    
+//   }
