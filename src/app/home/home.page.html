@@ -1,7 +1,6 @@
-
 <ion-content class="ion-padding" class="background">
   <!-- Side Menu -->
-<ion-header>
+<ion-header >
     <ion-buttons slot="start">
     <ion-menu-button></ion-menu-button>
     </ion-buttons>
@@ -80,28 +79,23 @@
       </div>
       <div>
         <ion-list>
-          <ion-item>
+          <ion-item *ngFor="let Shops of shop$">
                 <ion-thumbnail item-start>
                       <img src="assets/icon/product_1.png">
                     </ion-thumbnail>
                   <ion-card-header>
-                      <ion-card-title>Muruti James Kotas</ion-card-title>
-                    <ion-card-subtitle>4.52 KM</ion-card-subtitle>
+                      <ion-card-title>{{Shops.shopName}}</ion-card-title>
+                      <ion-card-subtitle>4.52 KM</ion-card-subtitle>
                   </ion-card-header>
                   <ion-badge slot="end" color="danger">Closed</ion-badge>
-            </ion-item>  
-            <ion-item>
-                <ion-thumbnail item-start>
-                    <img src="assets/icon/product_1.png">
-                  </ion-thumbnail>
-                <ion-card-header>
-                    <ion-card-title>Nkunku box Kotas</ion-card-title>
-                  <ion-card-subtitle>9.59 KM</ion-card-subtitle>
-                </ion-card-header>
-                <ion-badge slot="end" class="bagde">Open</ion-badge>
-          </ion-item>  
+            </ion-item> 
+
+          
         </ion-list>
+          
       </div>
+    
+      
     </form>
   </div>
 </ion-content>

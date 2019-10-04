@@ -37,24 +37,34 @@ export class AppComponent {
         icon  : 'home'
       },
       {
-        title: 'Shops',
+        title: 'Orders',
         url: '/',
-        icon: 'restaurant'
+        icon: 'cart'
+      },
+      {
+        title: 'Indox',
+      url: '/',
+      icon: 'mail'
       },
       {
         title: 'Profile',
+        url: '/',
+        icon: 'person'
+      },
+      {
+        title: 'Help',
+        url: '/',
+        icon: 'help'
+      },
+      {
+        title: 'Contact',
       url: '/',
-      icon: 'contact'
+      icon: 'call'
       },
       {
         title: 'About',
         url: '/',
-        icon: 'pin'
-      },
-      {
-        title: 'Log Out',
-        url: '/',
-        icon: 'log-out'
+        icon: 'information-circle'
       }
     ];
   }
